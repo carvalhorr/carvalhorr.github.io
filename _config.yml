@@ -1,0 +1,24 @@
+title: carvalhorr
+description: >-
+  Building the thing that builds the thing — notes on autonomous development
+  systems, local LLMs, and the hardware question underneath.
+url: "https://carvalhorr.github.io"
+baseurl: ""
+
+theme: minima
+markdown: kramdown
+
+# Posts at /YYYY/MM/slug.html
+permalink: /:year/:month/:title:output_ext
+
+# Minima settings
+minima:
+  date_format: "%-d %b %Y"
+
+header_pages:
+  - about.md
+
+# RSS comes free via jekyll-feed on GitHub Pages
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
