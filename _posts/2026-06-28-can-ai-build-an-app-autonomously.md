@@ -56,8 +56,8 @@ In the end, the *[Days in the Office](https://play.google.com/store/apps/details
 
 ## Conclusion
 
-After applying all the learnings from building the Android version, I ran the exact same specification for an iOS app. It was completed almost perfectly on the first iteration!
+After applying all the learnings from building the Android version, I ran the exact same specification for an iOS app using Claude. It was completed almost perfectly on the first iteration, with a few bug fixes added later.
 
 I am thrilled with how this experiment turned out. I learned a massive amount during the process. While it's a shame that I couldn't get local LLMs to fully complete the task without cutting corners, I am optimistic that with the right hardware and software advancements, we will get there soon.
 
-I plan to continue my journey exploring AI for software engineering. Stay tuned for more!
+I plan to continue my journey exploring AI for software engineering. Will continue posting updates on this blog.
