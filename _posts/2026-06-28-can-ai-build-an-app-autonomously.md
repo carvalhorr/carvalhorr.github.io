@@ -29,16 +29,18 @@ When I started, I didn't know which tools were available for fully autonomous co
 
 To test the local models, I was limited by my hardware: a single RTX 3090 Ti with 24 GB of VRAM. This caps me at running roughly a 31-billion-parameter model. I used OpenRouter to tun bigger open models that my hardware could not support.
 
+I
 Here is the setup I used for the experiment:
 
-| Category | Tools / Models Tested | Environment |
+I used Aider, OpenHands and Goose to drive the models. I also tried Claude Code, but I ended up using the Claude CLI. 
+
+| Category | Models Tested | Environment |
 | :--- | :--- | :--- |
-| **Coding Agents** | Aider, Goose, OpenHands | Local CLI |
 | **Baseline AI** | Claude 3.5 Sonnet | Claude CLI |
 | **Local Models** | Gemma 4 31B, Devstral, Qwen2.5-Coder (14B & 32B) | Local (24GB VRAM limit) |
 | **Cloud Open Models** | Kimi K2.6, Qwen3-Coder 480B, DeepSeek V3.1 671B, GLM-4.6, GPT-OSS 120B | OpenRouter |
 
-With the specification finalized, the task runner built, and my models selected, I was ready to hit start. 
+With the specification finalized, the task runner built, and my models selected, I was ready to hit start. Each model would run with each of the tools to see how each tool would perform with each model.
 
 ## The Results: Successes and "Cheating" AI
 
